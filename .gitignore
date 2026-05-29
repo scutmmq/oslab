@@ -24,3 +24,7 @@ extension/char_driver/pc_demo
 __pycache__/
 .ssh_*.py
 .qwen/
+
+# AI assistant artifacts
+CLAUDE.md
+.claude/
