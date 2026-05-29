@@ -1,0 +1,26 @@
+build/
+*.exe
+*.o
+*.obj
+*.a
+*.ilk
+*.pdb
+
+# Linux kernel module build artifacts (extension/char_driver)
+*.ko
+*.mod
+*.mod.c
+*.cmd
+.*.cmd
+*.symvers
+Module.symvers
+modules.order
+.tmp_versions/
+# compiled user-space test binaries (built from .c by Makefile)
+extension/char_driver/test_ringbuf
+extension/char_driver/pc_demo
+
+# misc
+__pycache__/
+.ssh_*.py
+.qwen/
